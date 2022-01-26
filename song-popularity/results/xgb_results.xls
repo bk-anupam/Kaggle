@@ -1,0 +1,7 @@
+data used	n_estimators	max_depth	fold_0	fold_1	fold_2	fold_3	fold_4	mean_auc
+only continuous	1000	11	0.5582	0.5512	0.563	0.5591	0.557	0.5577
+only continuous	1000	8	0.5494	0.5576	0.5699	0.5726	0.5674	0.56338
+only continuous	500	5	0.5574	0.5613	0.5693	0.5723	0.5716	0.56638
+continuous + one hot encoded categorical	500	5	0.5622	0.5647	0.5665	0.571	0.5649	0.56586
+continuous + one hot encoded categorical + cols to mark missing values	500	6	0.5588	0.563	0.5735	0.5718	0.5682	0.56706
+								
