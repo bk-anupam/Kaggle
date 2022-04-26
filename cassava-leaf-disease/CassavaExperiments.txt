@@ -1,0 +1,22 @@
+Experiments on cassava baseline
+
+1) Resnet50 15 epochs, 10% data, 224 by 224 image size, custom mean and stdev, drop_out=0.25, lr=0.00063
+
+Loss across folds = [0.7244412302970886]
+Accuracy across folds = [0.7593457698822021]
+
+2) Resnet50 15 epochs, 10% data, 512 by 512 image size, custom mean and stdev, lr = 0.000366, drop_out=0.25
+
+Loss across folds = [0.46687421202659607]
+Accuracy across folds = [0.8481308221817017]
+
+3) Resnet50 10 epochs, 10% data, 512 by 512 image size, image net mean and stdev, lr = 0.000366, drop_out=0.25
+
+Loss across folds = [0.44658055901527405]
+Accuracy across folds = [0.855140209197998]
+
+4) Resnext50 15 epochs, 10% data, 512 by 512 image size, image net mean and stdev, lr = 0.00025, drop_out=0.25
+Loss for fold0 = 0.5557976365089417, accuracy = 0.8341121673583984
+
+
+5) Efficietnet B0 10 epochs, 10% data, 512 by 512 image size, custom mean and stdev, lr = 0.000366, drop_out=0.25
